@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-charcoal text-cream font-body;
+}
+
+/* Signature "nameplate" motif — echoes the salon's real gold-on-black
+   engraved nameplate card. Small corner rivets give it a fitted,
+   brushed-metal feel instead of a generic rounded card. */
+.nameplate {
+  position: relative;
+  border: 1px solid rgba(201, 162, 39, 0.35);
+  background: linear-gradient(160deg, #16221F 0%, #121214 100%);
+}
+.nameplate::before,
+.nameplate::after,
+.nameplate .rivet-tl,
+.nameplate .rivet-br {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: rgba(201, 162, 39, 0.6);
+}
+.nameplate::before { top: 8px; left: 8px; }
+.nameplate::after { bottom: 8px; right: 8px; }
+
+/* Neon-glow text, used sparingly for the hero headline accent word,
+   echoing their real neon signage. */
+.neon-glow {
+  text-shadow: 0 0 8px rgba(255, 79, 163, 0.6), 0 0 20px rgba(255, 79, 163, 0.35);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
