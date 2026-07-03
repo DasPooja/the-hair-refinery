@@ -13,10 +13,18 @@ export const brand = {
   whatsappNumber: "918921894744", // TODO: phone number was cut off in the listing screenshot (started +91 89218...) — confirm full number before using this link, it will not work as-is
   phoneDisplay: "+91 89218 94744", // TODO: confirm full number
   instagram: "https://instagram.com/the_hair_refinery__",
-  facebook: "https://facebook.com/thehairrefinery", // TODO: confirm exact FB url
-  googleReviewUrl: "#", // TODO: get their real Google review link
+  facebook: "https://facebook.com/thehairrefinery", // Exact FB url
+  googleReviewUrl: "https://www.google.com/search?q=hair+refinery+unisex+salon&oq=hair+refinery+unisex+salon+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg7MgYIAhBFGDsyBggDEEUYPDIGCAQQRRg8MgYIBRBFGDzSAQk1MzU2ajBqMTWoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x3b080fd4e62ee13f:0xd2d5f833cef059c,1,,,,", // their real Google review link
   address: "Space Garden, Manakkapady Road, Ashokapuram P.O, Aluva, Kerala 683101",
-  hours: "Open daily · Closes 9:30 PM", // TODO: confirm full weekly hours
+  weeklyHours: [
+    { day: "Monday", time: "09:00 AM - 09:30 PM" },
+    { day: "Tuesday", time: "Closed" },
+    { day: "Wednesday", time: "09:00 AM - 09:30 PM" },
+    { day: "Thursday", time: "09:00 AM - 09:30 PM" },
+    { day: "Friday", time: "09:00 AM - 09:30 PM" },
+    { day: "Saturday", time: "09:00 AM - 09:30 PM" },
+    { day: "Sunday", time: "09:00 AM - 09:30 PM" },
+  ], // full weekly hours
   mapsUrl: "https://maps.google.com/?q=The+Hair+Refinery+Unisex+Salon+Aluva",
 };
 

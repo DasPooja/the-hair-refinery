@@ -1,6 +1,30 @@
 # The Hair Refinery — Website
 
-React + Vite + Tailwind CSS. Black, gold & teal — matches their real interior (velvet couch, gold nameplate signage, neon accents).
+Modern salon website built with React, Vite, and Tailwind CSS featuring a premium dark theme, online contact options, and business information.
+
+## Live Demo
+
+🔗 https://the-hair-refinery.vercel.app/
+
+## Features
+
+- Responsive salon website
+- WhatsApp appointment booking
+- Google Maps integration
+- Weekly working hours
+- Direct phone call support
+- Instagram & Facebook links
+- Service showcase
+- Gallery section (placeholder images)
+- Dark luxury theme with gold accents
+
+## Tech Stack
+
+- React
+- Vite
+- Tailwind CSS
+- React Icons
+- Vercel
 
 ## Run it locally
 
@@ -22,34 +46,33 @@ Output goes to `dist/` — deploy to Vercel, Netlify, or any static host.
 ## Where everything lives
 
 - **`src/data/salonData.js`** — ALL content. Edit this one file to update
-  text, services, contact info. Several `TODO` lines still need real info:
-  - Full WhatsApp/phone number (was cut off in your screenshot — you have
-    `+91 89218...`, need the rest before the Book buttons will work)
-  - Exact Facebook and Google review URLs
-  - Full weekly hours
+  text, services, contact info.
 - **`src/components/`** — one file per section. Plain JSX, `useState` only
   for the services tab switcher.
 - **`src/components/Gallery.jsx`** — placeholder tiles, not real photos
   (per your choice). Swap in real photos once you have permission.
-- **`tailwind.config.js`** — brand colors (`charcoal`, `surface`, `gold`,
-  `teal`, `tealBright`, `cream`, `neon`) and fonts (Space Grotesk for
-  headings — a nod to the "Refinery" industrial name — Inter for body).
-- **`src/index.css`** — font imports + the `.nameplate` and `.neon-glow`
-  classes. `.nameplate` gives cards a small-rivet, brushed-metal look,
-  echoing their real gold-on-black nameplate signage — this site's
-  signature visual detail (deliberately different from the Toni & Guy
-  build's "ticket" motif, so the two don't look like the same template).
+- **`tailwind.config.js`** — custom brand colors and font configuration.
+- **`src/index.css`** — global styles, font imports, and custom utility classes  such as `.nameplate` and `.neon-glow`.
 
 ## Before going live — checklist
 
-- [ ] Get the full WhatsApp number — currently broken/placeholder
-- [ ] Confirm exact Facebook and Google review links
-- [ ] Confirm full weekly hours (currently just "closes 9:30 PM" from Google)
-- [ ] Get written OK to use real photos, then swap Gallery.jsx placeholders
+- [ ] Get written permission to use the salon logo
+- [ ] Get written permission to use salon photos
+- [ ] Replace placeholder gallery images
 
-## Reusing this as a template for the next salon
+## Reusing this template
 
-1. Copy this whole folder
-2. Replace everything in `src/data/salonData.js`
-3. Tweak the colors in `tailwind.config.js` to match the new salon
-4. Swap Gallery.jsx placeholder tiles for real photos
+1. Copy the project
+2. Update `src/data/salonData.js`
+3. Replace logo and gallery images
+4. Update social links and contact details
+5. Adjust brand colors in `tailwind.config.js`
+6. Deploy to Vercel or Netlify
+
+Suitable for:
+- Salons
+- Barbershops
+- Spas
+- Beauty clinics
+- Gyms
+- Local businesses

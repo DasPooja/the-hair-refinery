@@ -1,4 +1,5 @@
 import { brand, whatsappBookingUrl } from "../data/salonData";
+import { FaSquareFacebook, FaInstagram } from "react-icons/fa6";
 
 export function CTABanner() {
   return (
@@ -36,7 +37,7 @@ export function Footer() {
             rel="noopener noreferrer"
             className="text-cream/60 hover:text-gold transition-colors"
           >
-            Instagram
+            <FaInstagram size={20} />
           </a>
           <a
             href={brand.facebook}
@@ -44,7 +45,7 @@ export function Footer() {
             rel="noopener noreferrer"
             className="text-cream/60 hover:text-gold transition-colors"
           >
-            Facebook
+            <FaSquareFacebook size={20} />
           </a>
           <a
             href={brand.googleReviewUrl}
@@ -60,6 +61,9 @@ export function Footer() {
           {brand.location}, Kerala
         </p>
       </div>
+      <p className="flex justify-center items-center mt-4 text-cream/40 text-sm">
+        Demo website created for presentation purposes.
+        Images used are placeholders.</p>
     </footer>
   );
 }
