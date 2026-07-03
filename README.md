@@ -41,8 +41,6 @@ Opens at http://localhost:5173
 npm run build
 ```
 
-Output goes to `dist/` — deploy to Vercel, Netlify, or any static host.
-
 ## Where everything lives
 
 - **`src/data/salonData.js`** — ALL content. Edit this one file to update
