@@ -13,7 +13,7 @@ export const brand = {
   whatsappNumber: "918921894744", // TODO: phone number was cut off in the listing screenshot (started +91 89218...) — confirm full number before using this link, it will not work as-is
   phoneDisplay: "+91 89218 94744", // TODO: confirm full number
   instagram: "https://instagram.com/the_hair_refinery__",
-  facebook: "https://facebook.com/thehairrefinery", // Exact FB url
+  facebook: "https://www.facebook.com/people/The-Hair-Refinery/61579501373331/#", // Exact FB url
   googleReviewUrl: "https://www.google.com/search?q=hair+refinery+unisex+salon&oq=hair+refinery+unisex+salon+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg7MgYIAhBFGDsyBggDEEUYPDIGCAQQRRg8MgYIBRBFGDzSAQk1MzU2ajBqMTWoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x3b080fd4e62ee13f:0xd2d5f833cef059c,1,,,,", // their real Google review link
   address: "Space Garden, Manakkapady Road, Ashokapuram P.O, Aluva, Kerala 683101",
   weeklyHours: [
